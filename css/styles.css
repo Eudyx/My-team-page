@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+#tittle{
+    width: 250px;
+    font-size: 15px;
+    padding-right: 200px;
+}
+
+.img{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.img img{
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+#mainCt{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#info{
+    width: 350px;
+    font-family: Helvetica, sans-serif;
+}
+
+#imgCt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contimg{
+    width: 95%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.img h5{
+    writing-mode: vertical-lr;
+    margin-left: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#p2{
+    margin-top: 150px;
+}
+
+#p5{
+    margin-top: 150px;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1526px){
+    #p5{
+        margin-top: 0px;
+    }
+
+    #p4{
+        margin-top: 150px;
+    }
+
+    #p6{
+        margin-top: 150px;
+    }
+
+
+}
+
+@media screen and (max-width: 1080px){
+    #tittle{
+        width: 250px;
+        padding-right: 20px;
+    }
+
+    .img{
+        margin: 10px;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 160px;
+    }
+    
+    .img img{
+        width: 140px;
+        margin-bottom: 10px;
+    }
+
+    .img h5{
+        margin-left: 5px;
+    }
+
+    #info{
+        width: 300px;
+    }
+
+    #imgCt{
+        width: 90%;
+    }
+    
+
+}
+
+@media screen and (max-width: 750px) {
+    #header{
+        display: inline-block;
+        justify-content: left;
+        width: 80%;
+    }
+
+    #tittle{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .img{
+        margin: 10px;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 160px;
+    }
+    
+    .img img{
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    #imgCt{
+        width: 100%;
+    }
+
+    #mainCt{
+        width: 100%;
+    }
+}
